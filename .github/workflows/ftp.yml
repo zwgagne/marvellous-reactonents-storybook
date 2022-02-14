@@ -1,0 +1,17 @@
+on: push
+name: Deploy website on push
+jobs:
+  web-deploy:
+    name:  Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest codes
+      uses: actions/checkout@v2
+    
+    - name: Sync file
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      with:
+        server: ftp.zwgagne.devwebgarneau.com
+        username: zwgagne
+        protocol: ftp
+        password: ${{ secrets.ftp_password }}
