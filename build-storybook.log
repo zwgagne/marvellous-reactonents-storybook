@@ -1,0 +1,33 @@
+info @storybook/react v6.4.19
+info 
+info => Cleaning outputDir: /var/folders/h6/_r90ty3n6z91y5jsh7k9bsth0000gn/T/chromatic--59016-COfWFIK3FwkF
+(node:59038) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ERR! ReferenceError: storybook is not defined
+ERR!     at Object.<anonymous> (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/.storybook/main.js:6:15)
+ERR!     at Module._compile (node:internal/modules/cjs/loader:1101:14)
+ERR!     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+ERR!     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+ERR!     at interopRequireDefault (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-common/dist/cjs/utils/interpret-require.js:64:16)
+ERR!     at serverRequire (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-common/dist/cjs/utils/interpret-require.js:101:10)
+ERR!     at getPreviewBuilder (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/utils/get-preview-builder.js:25:55)
+ERR!     at buildStaticStandalone (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/build-static.js:95:71)
+ERR!     at async buildStatic (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+ERR!  ReferenceError: storybook is not defined
+ERR!     at Object.<anonymous> (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/.storybook/main.js:6:15)
+ERR!     at Module._compile (node:internal/modules/cjs/loader:1101:14)
+ERR!     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+ERR!     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+ERR!     at interopRequireDefault (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-common/dist/cjs/utils/interpret-require.js:64:16)
+ERR!     at serverRequire (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-common/dist/cjs/utils/interpret-require.js:101:10)
+ERR!     at getPreviewBuilder (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/utils/get-preview-builder.js:25:55)
+ERR!     at buildStaticStandalone (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/build-static.js:95:71)
+ERR!     at async buildStatic (/Users/zwgagne/Documents/Github/marvellous-reactonents-storybook/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
