@@ -12,8 +12,8 @@ https://github.com/HBherer/marvellous-reactonents2
 > Link to Repositery of the storybook
 https://github.com/zwgagne/marvellous-reactonents-storybook
 
-> Link to Repositery of the storybook
-..
+> Link to Chromatic
+https://www.chromatic.com/builds?appId=6211658d1d6791003a2b83bf
 
 ## Usage
 
