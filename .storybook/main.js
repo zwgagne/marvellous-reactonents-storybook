@@ -1,7 +1,12 @@
 module.exports = {
-  stories: process.env.SMOKE_TEST ? ['../test-stories/*.stories.*'] : ['../bin-src/**/*.stories.*'],
-  features: {
-    postcss: false,
-  },
-    addons: [ storybook/preset-create-react-app ],
-};
+  "stories": [
+    "../src/**/*.stories.mdx",
+    "../docs/*.stories.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
+  "addons": [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/preset-create-react-app"
+  ]
+}

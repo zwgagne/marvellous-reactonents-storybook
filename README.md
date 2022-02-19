@@ -9,10 +9,6 @@ https://www.npmjs.com/package/marvellous-reactonents2
 > Link to Repositery of package
 https://github.com/HBherer/marvellous-reactonents2
 
-> Link to the storybook
-https://zwgagne.devwebgarneau.com/storybook/?path=/story/docs-intro--page 
-
-
 ## Usage
 
 You can use the following components in every project you want just by importing them as shown in the examples.
